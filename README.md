@@ -1,5 +1,7 @@
 # webrtc-signaling-client
-Sample WebRTC signaling server implementation (client side)
+Sample WebRTC signaling server implementation (client side)  
+Server side: https://github.com/nkming2/webrtc-signaling-server  
+Client side for Android: https://github.com/nkming2/webrtc-signaling-client-android
 
 ## Dependency
 - socket.io
