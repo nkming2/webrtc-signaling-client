@@ -1,7 +1,7 @@
 /**
  * Signal as an initiator
  *
- * @param serverAddr The addess of the signaling server
+ * @param serverAddr The address of the signaling server
  * @param offer The SDP offer
  */
 function RtcSignalingInitiator(serverAddr, offer)
@@ -79,7 +79,7 @@ RtcSignalingInitiator.prototype.disconnect = function()
  * 	- Called when a server token has been received. Token is to be sent to the
  * 	receiver in order to establish a connection. The token string is passed as
  * 	the arg
- * 
+ *
  * @param event
  * @param callback
  */
@@ -100,7 +100,7 @@ RtcSignalingInitiator.prototype.on = function(event, callback)
 /**
  * Signal as an receiver (the one receiving the token)
  *
- * @param serverAddr The addess of the signaling server
+ * @param serverAddr The address of the signaling server
  * @param token The received token
  */
 function RtcSignalingReceiver(serverAddr, token)
@@ -176,7 +176,7 @@ RtcSignalingReceiver.prototype.disconnect = function()
  * - offer
  * 	- Called when an offer has been received. The offer SDP object is passed as
  * 	the arg
- * 
+ *
  * @param event
  * @param callback
  */
